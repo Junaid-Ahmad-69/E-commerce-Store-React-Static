@@ -1,0 +1,45 @@
+.virtualContainer {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.virtualLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+
+}
+.virtualLeft>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+.virtualLeft>:nth-child(2){
+    font-size: 1.6rem;
+    display: block;
+    width: 20rem;
+    text-transform: uppercase;
+}
+.virtualLeft>:nth-child(3){
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.virtualLeft>img{
+    position: absolute;
+    width: 10rem;
+        bottom: -2rem;
+    left: -1rem;
+}
+.wrapper{
+    width: 30rem;
+}
+.virtualRight {
+
+}
